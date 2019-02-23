@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF31D8BE210F9388002F16FF /* MemoryDisplayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF31D8BD210F9388002F16FF /* MemoryDisplayController.swift */; };
+		CF31D8C02110C3DF002F16FF /* MemoryEditingViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF31D8BF2110C3DF002F16FF /* MemoryEditingViewController2.swift */; };
+		CF31D8C221123571002F16FF /* MemoryEditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF31D8C121123571002F16FF /* MemoryEditingViewController.swift */; };
 		CFD29EBD20F4F0ED00EC3A9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD29EBC20F4F0ED00EC3A9C /* AppDelegate.swift */; };
-		CFD29EBF20F4F0ED00EC3A9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD29EBE20F4F0ED00EC3A9C /* ViewController.swift */; };
 		CFD29EC220F4F0ED00EC3A9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD29EC020F4F0ED00EC3A9C /* Main.storyboard */; };
 		CFD29EC420F4F0F000EC3A9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD29EC320F4F0F000EC3A9C /* Assets.xcassets */; };
 		CFD29EC720F4F0F000EC3A9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD29EC520F4F0F000EC3A9C /* LaunchScreen.storyboard */; };
+		CFD29ECF20F4F14300EC3A9C /* LandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD29ECE20F4F14300EC3A9C /* LandingPageViewController.swift */; };
+		CFD29ED120F4F32400EC3A9C /* MemoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD29ED020F4F32400EC3A9C /* MemoriesTableViewController.swift */; };
+		CFD29EF720F51D9F00EC3A9C /* MemoryDataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD29EF620F51D9F00EC3A9C /* MemoryDataObject.swift */; };
+		CFD29F0720FD187000EC3A9C /* MemoryDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD29F0620FD187000EC3A9C /* MemoryDoc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF31D8BD210F9388002F16FF /* MemoryDisplayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryDisplayController.swift; sourceTree = "<group>"; };
+		CF31D8BF2110C3DF002F16FF /* MemoryEditingViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryEditingViewController2.swift; sourceTree = "<group>"; };
+		CF31D8C121123571002F16FF /* MemoryEditingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryEditingViewController.swift; sourceTree = "<group>"; };
 		CFD29EB920F4F0ED00EC3A9C /* Memroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD29EBC20F4F0ED00EC3A9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CFD29EBE20F4F0ED00EC3A9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CFD29EC120F4F0ED00EC3A9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFD29EC320F4F0F000EC3A9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFD29EC620F4F0F000EC3A9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFD29EC820F4F0F000EC3A9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFD29ECE20F4F14300EC3A9C /* LandingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageViewController.swift; sourceTree = "<group>"; };
+		CFD29ED020F4F32400EC3A9C /* MemoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriesTableViewController.swift; sourceTree = "<group>"; };
+		CFD29EF620F51D9F00EC3A9C /* MemoryDataObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryDataObject.swift; sourceTree = "<group>"; };
+		CFD29F0620FD187000EC3A9C /* MemoryDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryDoc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +67,13 @@
 			isa = PBXGroup;
 			children = (
 				CFD29EBC20F4F0ED00EC3A9C /* AppDelegate.swift */,
-				CFD29EBE20F4F0ED00EC3A9C /* ViewController.swift */,
+				CFD29ECE20F4F14300EC3A9C /* LandingPageViewController.swift */,
+				CF31D8BF2110C3DF002F16FF /* MemoryEditingViewController2.swift */,
+				CFD29ED020F4F32400EC3A9C /* MemoriesTableViewController.swift */,
+				CF31D8BD210F9388002F16FF /* MemoryDisplayController.swift */,
+				CF31D8C121123571002F16FF /* MemoryEditingViewController.swift */,
+				CFD29EF620F51D9F00EC3A9C /* MemoryDataObject.swift */,
+				CFD29F0620FD187000EC3A9C /* MemoryDoc.swift */,
 				CFD29EC020F4F0ED00EC3A9C /* Main.storyboard */,
 				CFD29EC320F4F0F000EC3A9C /* Assets.xcassets */,
 				CFD29EC520F4F0F000EC3A9C /* LaunchScreen.storyboard */,
@@ -135,8 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFD29EBF20F4F0ED00EC3A9C /* ViewController.swift in Sources */,
+				CF31D8C221123571002F16FF /* MemoryEditingViewController.swift in Sources */,
+				CFD29ED120F4F32400EC3A9C /* MemoriesTableViewController.swift in Sources */,
+				CF31D8BE210F9388002F16FF /* MemoryDisplayController.swift in Sources */,
+				CFD29F0720FD187000EC3A9C /* MemoryDoc.swift in Sources */,
 				CFD29EBD20F4F0ED00EC3A9C /* AppDelegate.swift in Sources */,
+				CFD29ECF20F4F14300EC3A9C /* LandingPageViewController.swift in Sources */,
+				CFD29EF720F51D9F00EC3A9C /* MemoryDataObject.swift in Sources */,
+				CF31D8C02110C3DF002F16FF /* MemoryEditingViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
